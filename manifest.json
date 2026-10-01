@@ -512,6 +512,288 @@
       ],
       "ast": [
         "aggregate/ast/5640e3881f9b4d8c52bb16e38fe63535635df1cb/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/5640e3881f9b4d8c52bb16e38fe63535635df1cb.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "rails",
+          "ecosystem": "RUBYGEMS",
+          "version": "8.1.4",
+          "githubOrg": "rails",
+          "githubRepo": "rails",
+          "githubCommit": "c3466ea00d7121798e3aa3144ffdf7174b81d8cb",
+          "githubTag": "v8.1.4",
+          "githubUrl": "https://github.com/rails/rails/tree/v8.1.4",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "mysql2",
+          "ecosystem": "RUBYGEMS",
+          "version": "0.5",
+          "githubOrg": "brianmario",
+          "githubRepo": "mysql2",
+          "githubUrl": "https://github.com/brianmario/mysql2/tree/0.5.7",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "pg",
+          "ecosystem": "RUBYGEMS",
+          "version": "1.5",
+          "githubOrg": "ged",
+          "githubRepo": "ruby-pg",
+          "githubUrl": "https://github.com/ged/ruby-pg",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "puma",
+          "ecosystem": "RUBYGEMS",
+          "version": "5.0",
+          "githubOrg": "puma",
+          "githubRepo": "puma",
+          "githubUrl": "https://github.com/puma/puma",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "importmap-rails",
+          "ecosystem": "RUBYGEMS",
+          "version": "2.2.3",
+          "githubOrg": "rails",
+          "githubRepo": "importmap-rails",
+          "githubCommit": "6fb2bd58e3709d4996179de06aa687d6abae8a0e",
+          "githubTag": "v2.2.3",
+          "githubUrl": "https://github.com/rails/importmap-rails",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "stimulus-rails",
+          "ecosystem": "RUBYGEMS",
+          "version": "1.3.4",
+          "githubOrg": "hotwired",
+          "githubRepo": "stimulus-rails",
+          "githubCommit": "8e34f2e4dd7716224317b635db1e5d9ed58324b1",
+          "githubTag": "v1.3.4",
+          "githubUrl": "https://github.com/hotwired/stimulus-rails",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "jbuilder",
+          "ecosystem": "RUBYGEMS",
+          "version": "2.15.1",
+          "githubOrg": "rails",
+          "githubRepo": "jbuilder",
+          "githubCommit": "31eb6e909968adafb3dbd6ca7a603d23f738f154",
+          "githubTag": "v2.15.1",
+          "githubUrl": "https://github.com/rails/jbuilder/tree/v2.15.1",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "bcrypt",
+          "ecosystem": "RUBYGEMS",
+          "version": "3.1.7",
+          "githubOrg": "codahale",
+          "githubRepo": "bcrypt-ruby",
+          "githubCommit": "f167f92c702ea6b01a9995e3089f49b95c34eecb",
+          "githubTag": "v3.1.7",
+          "githubUrl": "https://github.com/codahale/bcrypt-ruby",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "tzinfo-data",
+          "ecosystem": "RUBYGEMS",
+          "version": "1.2026.5",
+          "githubOrg": "tzinfo",
+          "githubRepo": "tzinfo-data",
+          "githubCommit": "8df8badc7bed5b6ad5b54440dd9985be8ef54121",
+          "githubTag": "v1.2026.5",
+          "githubUrl": "https://github.com/tzinfo/tzinfo-data",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "solid_cache",
+          "ecosystem": "RUBYGEMS",
+          "version": "1.0.10",
+          "githubOrg": "rails",
+          "githubRepo": "solid_cache",
+          "githubCommit": "004e1011d4bef9f77a5701ce8a4051d14ecd7b8e",
+          "githubTag": "v1.0.10",
+          "githubUrl": "http://github.com/rails/solid_cache",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "solid_queue",
+          "ecosystem": "RUBYGEMS",
+          "version": "1.7.0",
+          "githubOrg": "rails",
+          "githubRepo": "solid_queue",
+          "githubCommit": "e2b53849c715b29fa2d97a939097bd1beaea4bc9",
+          "githubTag": "v1.7.0",
+          "githubUrl": "https://github.com/rails/solid_queue",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "solid_cable",
+          "ecosystem": "RUBYGEMS",
+          "version": "4.1.0",
+          "githubOrg": "rails",
+          "githubRepo": "solid_cable",
+          "githubCommit": "1e4217e51db6e116318804776d30c3f4c2b776a4",
+          "githubTag": "v4.1.0",
+          "githubUrl": "https://github.com/rails/solid_cable",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "bootsnap",
+          "ecosystem": "RUBYGEMS",
+          "version": "1.26.0",
+          "githubOrg": "rails",
+          "githubRepo": "bootsnap",
+          "githubCommit": "67a7290e0318ad59e8c97bb81c816dcf23801f20",
+          "githubTag": "v1.26.0",
+          "githubUrl": "https://github.com/rails/bootsnap",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "commonmarker",
+          "ecosystem": "RUBYGEMS",
+          "version": "2.10.0",
+          "githubOrg": "gjtorikian",
+          "githubRepo": "commonmarker",
+          "githubCommit": "0e629d65db2ebfe40f8cf9b5ee6de2bd77dbd085",
+          "githubTag": "v2.10.0",
+          "githubUrl": "https://github.com/gjtorikian/commonmarker",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "ruby-openai",
+          "ecosystem": "RUBYGEMS",
+          "version": "8.3.0",
+          "githubOrg": "alexrudall",
+          "githubRepo": "ruby-openai",
+          "githubCommit": "adde60df1b1ff273970c40e98ba931ad9b4dd33a",
+          "githubTag": "v8.3.0",
+          "githubUrl": "https://github.com/alexrudall/ruby-openai",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "activeadmin",
+          "ecosystem": "RUBYGEMS",
+          "version": "4.0.0.beta",
+          "githubOrg": "activeadmin",
+          "githubRepo": "activeadmin",
+          "githubUrl": "https://github.com/activeadmin/activeadmin",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "activeadmin_assets",
+          "ecosystem": "RUBYGEMS",
+          "version": "1.3.0",
+          "githubOrg": "jaynetics",
+          "githubRepo": "activeadmin_assets",
+          "githubCommit": "0277c544d7bcea8a7dafef076cee08595048c791",
+          "githubTag": "v1.3.0",
+          "githubUrl": "https://github.com/jaynetics/activeadmin_assets",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "rack-attack",
+          "ecosystem": "RUBYGEMS",
+          "version": "6.8.0",
+          "githubOrg": "rack",
+          "githubRepo": "rack-attack",
+          "githubCommit": "65f1ead3bc648b1e972fd8df0078949f056699d9",
+          "githubTag": "v6.8.0",
+          "githubUrl": "https://github.com/rack/rack-attack",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "debug",
+          "ecosystem": "RUBYGEMS",
+          "version": "1.11.1",
+          "githubOrg": "ruby",
+          "githubRepo": "debug",
+          "githubCommit": "bad4d38f8330219b62f2b253d59146f5a71fd39a",
+          "githubTag": "v1.11.1",
+          "githubUrl": "https://github.com/ruby/debug",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "faker",
+          "ecosystem": "RUBYGEMS",
+          "version": "3.8.0",
+          "githubOrg": "faker-ruby",
+          "githubRepo": "faker",
+          "githubCommit": "e48d35f4fa0d4bda8257975d9549e4d9422a0ba4",
+          "githubTag": "v3.8.0",
+          "githubUrl": "https://github.com/faker-ruby/faker",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "bundler-audit",
+          "ecosystem": "RUBYGEMS",
+          "version": "0.9.3",
+          "githubOrg": "rubysec",
+          "githubRepo": "bundler-audit",
+          "githubCommit": "f8b06ebbefdd223e6eb21b9b258d75e6cfa9442a",
+          "githubTag": "v0.9.3",
+          "githubUrl": "https://github.com/rubysec/bundler-audit",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "brakeman",
+          "ecosystem": "RUBYGEMS",
+          "version": "8.1.0",
+          "githubOrg": "presidentbeef",
+          "githubRepo": "brakeman",
+          "githubCommit": "c7781648630c789dd1a2f089e94b5d8c463169fb",
+          "githubTag": "v8.1.0",
+          "githubUrl": "https://github.com/presidentbeef/brakeman",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "rspec-rails",
+          "ecosystem": "RUBYGEMS",
+          "version": "8.0.4",
+          "githubOrg": "rspec",
+          "githubRepo": "rspec-rails",
+          "githubCommit": "222fb5518a7c9c1b9a0a06d950c2dfa2d3fa69e9",
+          "githubTag": "v8.0.4",
+          "githubUrl": "https://github.com/rspec/rspec-rails",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "capybara",
+          "ecosystem": "RUBYGEMS",
+          "version": "3.40.0",
+          "githubOrg": "teamcapybara",
+          "githubRepo": "capybara",
+          "githubCommit": "a210c6e57872416ca689091614e65163e2886694",
+          "githubTag": "3.40.0",
+          "githubUrl": "https://github.com/teamcapybara/capybara",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "selenium-webdriver",
+          "ecosystem": "RUBYGEMS",
+          "version": "4.50.0",
+          "githubOrg": "SeleniumHQ",
+          "githubRepo": "selenium",
+          "githubCommit": "ca2a96694916c818db1c388b7a1c14cf3380c098",
+          "githubTag": "selenium-4.50.0",
+          "githubUrl": "https://github.com/SeleniumHQ/selenium/tree/trunk/rb",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "aiohttp",
+          "ecosystem": "PYPI",
+          "version": "3.14.3",
+          "githubOrg": "aio-libs",
+          "githubRepo": "aiohttp",
+          "githubCommit": "5e392ce0456f5235a4ee6ad46f0e806df2f15873",
+          "githubTag": "v3.14.3",
+          "githubUrl": "https://github.com/aio-libs/aiohttp",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/aiohttp/client.py"
+        }
       ]
     }
   ],
